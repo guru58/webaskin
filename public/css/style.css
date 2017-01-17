@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css?family=Taviraj');
+
+
+                                       /*HEADER PAGE START HERE*/
+
+*{
+  box-sizing: border-box!important;
+}
+
+html,body{
+  background-color: #f8f8f8;
+}
+
+.row{
+  margin-left:0px!important;
+  margin-right:0px!important;
+}
+
+.container-fluid{
+  margin-left:0px!important;
+  margin-right:0px!important;
+}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+  margin-left:0px!important;
+  margin-right:0px!important;
+}
+
+nav{
+  background-color: #546875!important;
+  box-shadow: 0px 8px 16px 0px lightgray;
+  border: none!important;
+}
+
+.navbar-brand{
+ color:#fff!important;
+}
+
+.nav>li>a{
+  color:#fff!important;
+  border: none!important;
+}
+
+.nav>li>a:hover{
+  background-color:#eb6864!important;
+  border: none!important;
+}
+.nav>li>a:focus{
+  background-color:#eb6864!important;
+  border: none!important;
+}
+.navbar-toggle{
+  background-color:#fff!important;
+}
+
+.icon-bar{
+  background-color:#000!important;
+}
+
+#top{
+  position: fixed;
+  bottom:20px;
+  right:20px;
+  display:none;
+  background-color: #ff6666;
+  color:#fff;
+}
+                       
+.logoutLi:hover{
+background-color: #ff6666!important;
+}                       
+
+.logoutLink{
+color:#333;
+margin-left:20px;
+text-decoration: none;
+}
+
+.logoutLink:hover{
+color:#fff!important;
+text-decoration: none;
+}
+
+.panel-body{
+  margin:10px 30px!important;
+  text-align: justify;
+}
+                                           /*HEADER PAGE END */
+                                           
+                                           /* HOME PAGE  START*/
+h2{
+  font-family: 'Taviraj', serif;
+  color: #333333;
+  text-shadow: 0 0 3px  #fff;
+}
+
+h3{
+  font-family: 'Taviraj', serif;
+  text-shadow: 0 0 8px  #fff;
+}
+
+h4{
+  font-family: 'Taviraj', serif;
+  color:#fff;
+  background-color: #546875;
+  padding:10px;
+}
+
+#fb{
+  background-color:#2980b9;
+  font-size:16px;
+}
+#gp{
+ background-color:#e74c3c; 
+ font-size:16px;
+}
+#ln{
+  background-color: #3498db;
+  font-size:16px;
+}
+
+#resetLink{
+  margin-left: 20px;
+}
+
+                                 /*QUESTION SECTION IN HOME PAGE*/
+.rowQuestion{
+}
+
+.rowQuestion .row .container .homeTitle{
+  margin:10px 0px 30px 0px;
+} 
+
+.rowQuestion .row .container .homeTitle h2{
+  position:absolute;
+  z-index:1;
+  margin:80px 350px;
+}
+
+.question_box{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   text-align: justify;
+   /*padding:20px;*/
+
+}
+
+.question_box img{
+  width:50px;
+  height:50px;
+  border-radius:100%;
+  box-shadow:  0 2px 2px 0 #000;
+  padding:3px;
+}
+
+.question_box .timediff{
+float:right;
+font-size:11px;
+background-color:#546875;
+padding:5px;
+color:#fff;
+}
+
+.question_box .votes{
+border-right:1px solid lightgray;
+}
+
+.question_box .answers{
+border-right:1px solid lightgray;
+
+}
+
+.question_box .views{
+border-right:1px solid lightgray;
+
+}
+
+.question_box .username{
+  float:right;
+  font-size:14px;
+}
+
+.links a:hover{
+  transition-duration: 0.4s;
+  color:#fff;
+  background-color: #ff6666;
+}
+
+
+                                 /*MENTOR SECTION IN HOME PAGE*/
+
+._rowMentor{
+  margin:30px 0px;
+}
+
+.mentorProfile{
+  margin:10px 0px 0px 80px;
+  font-size: 20px;
+  text-shadow: 0 0 3px #FF0000;
+}
+
+                                  /*CHALLENEGE SECTION IN HOME PAGE*/
+
+._rowChallenge{
+  margin:0px 0px 30px 0px;
+  padding:30px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+._rowChallenge .row .container .jumbotron{
+  background-color:#ff6666!important;
+}
+
+._rowChallenge .row .container .jumbotron h2{
+  color:#fff; 
+}
+
+._rowChallenge .row .container .jumbotron p{
+  font-size:16px;
+  color:#fff; 
+}
+
+                                    /*NEWS SECTION IN HOME PAGE*/
+
+.well{
+  background-color: #fff!important;
+}
+
+                                                             /*FOOTER SECTION*/
+
+footer{
+  margin:30px 0px 0px 0px;
+  padding:20px 0px;
+  background-color:#546875;
+}
+
+footer  ul{
+  padding:10px; 
+  margin:10px 20px;
+}
+
+footer  ul li{
+  list-style-type: none;
+  padding: 5px 0px;
+}
+
+footer  ul li a{
+  font-size: 18px;
+  color:#fff;
+  text-decoration: none;
+}
+
+.copyright{
+  background-color: #222222;
+  box-shadow: 8px 4px 0px 8px rgba(0, 0, 0, 0.2);
+  height:60px;
+}
+
+.copyright p{
+  font-size: 16px;
+  margin: 15px 120px;
+}
+
+ 
+                     /* HOME PAGE END & SINGLE POST PAGE START */
+
+.rowQuestion .row .container .question_box img{
+  width:80px;
+  height:80px;
+  border-radius:0;
+}
+
+.answer_box{
+  margin: 30px 0px 30px 0px;
+  padding:20px;
+}
+.answer_box img{
+   width:80px;
+   height:80px;
+   border-radius:0;
+}
+.answer_box .user{
+  font-size:18px;
+}
+                                         /*PROFILE PAGE START HERE*/
+#row_profile{
+
+}
+#row_profile .row .container .profile_box{
+  margin:30px 0px;
+}
+#row_profile .row .container .profile_box .profile{
+  box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  margin:30px 0px;
+}
+#row_profile .row .container .profile_box .profile img{
+  box-shadow: 0px 2px 2px 0px lightgray;
+  padding:10px;
+  width:250px;
+  height:200px;
+}
+#row_profile .row .container .info{
+  margin:30px 0px;
+  box-shadow: 0px 4px 2px 0px rgba(0,0,0,0.4);
+  background-color: #ffffff;
+}
+#row_profile .row .container .info .editLink{
+float:right;
+}
+
+#row_updateprofile .row .container .updateprofile .update{
+  box-shadow: 0px 4px 2px 0px rgba(0,0,0,0.4);
+  margin:30px 0px;
+  padding:30px 20px;
+}
+
+                                               /*MEDIA QUEERIES  START HERE*/
+
+                                                   /* Media query 1200px*/
+
+@media only screen and(max-width:1200px){
+
+}
+
+
+                                                   /* Media query 992px*/
+
+@media only screen and (max-width:992px){
+
+                                                   /*HOME PAGE*/
+.rowQuestion .row .container .homeTitle h2{
+  margin:80px 250px;
+}
+
+}
+                                                   /* Media query 768px*/
+
+@media only screen and (max-width:768px){
+
+                                                /*QUESTION SECTION IN  HOME PAGE*/
+ 
+.rowQuestion .row .container .homeTitle h2{
+  margin:80px 140px;
+}
+
+
+}
+
+                                    /* Media query 480px*/
+
+@media only screen and (max-width:480px){
+
+                                          /*QUESTION SECTION IN HOME PAGE*/
+.rowQuestion .row .container .homeTitle h2{
+  font-size: 25px;
+  margin:60px 50px;
+}
+                                    /*CHALLENEGE SECTION IN HOME PAGE*/
+
+._rowChallenge .row .container .jumbotron h2{
+  color:#fff; 
+}
+
+._rowChallenge .row .container .jumbotron p{
+  font-size:14px;
+ 
+}
+}
+
+
+
+
+
+                                                   /* Media query 320px*/
+
+@media only screen and (max-width:320px){
+
+                           /*QUESTION SECTION IN HOME PAGE*/
+.rowQuestion .row .container .homeTitle h2{
+  font-size: 18px;
+  margin:60px 15px;
+}
+
+
+              /*CHALLENEGE SECTION IN HOME PAGE*/
+
+._rowChallenge .row .container .jumbotron h2{
+  color:#fff; 
+  font-size: 16px;
+}
+
+._rowChallenge .row .container .jumbotron p{
+  font-size:12px;
+ 
+}
+
+}
+
+
+
+
